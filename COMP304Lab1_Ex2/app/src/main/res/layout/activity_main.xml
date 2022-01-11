@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="@string/mainViewText"
+        android:textSize="@dimen/textSize24" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerTop"
+        android:name="com.example.marcdeguzman_comp304sec002_lab1_ex2.TopFragment"
+        android:layout_width="match_parent"
+        android:layout_height="353dp"
+        android:background="#972F2F" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerBottom"
+        android:name="com.example.marcdeguzman_comp304sec002_lab1_ex2.BottomFragment"
+        android:layout_width="match_parent"
+        android:layout_height="344dp"
+        android:background="#1787B5" />
+</LinearLayout>

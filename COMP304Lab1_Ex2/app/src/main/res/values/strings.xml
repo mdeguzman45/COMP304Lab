@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lab1_Ex2</string>
+    <string name="mainViewText">Life Cycle Methods Demonstration</string>
+    <string name="hello_top_blank_fragment">Hello top blank fragment</string>
+    <string name="hello_bottom_blank_fragment">Hello bottom blank fragment</string>
+    <string name="bottomMainActivity">Main Activity</string>
+
+    <string name="mainOnStartId">mainOnStart</string>
+    <string name="mainOnStartMsg">onStart executed</string>
+    <string name="mainOnCreateId">mainOnCreate</string>
+    <string name="mainOnCreateMsg">onCreate executed</string>
+
+    <string name="aiActivityText">AIActivity:</string>
+    <string name="VRActivityText">VRActivity:</string>
+
+    <string name="activityOnCreateText">onCreate executed</string>
+    <string name="activityOnStartText">onStart executed</string>
+    <string name="activityOnStopText">onStop executed</string>
+    <string name="activityOnDestroyText">onDestroy executed</string>
+
+</resources>

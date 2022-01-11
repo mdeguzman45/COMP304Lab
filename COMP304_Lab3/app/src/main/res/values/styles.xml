@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="heading_6pt_left">
+        <item name="android:textColor">
+            @color/light_grey
+        </item>
+        <item name="android:textSize">
+            @dimen/heading6
+        </item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="heading_8pt_left">
+        <item name="android:textColor">
+            @color/light_grey
+        </item>
+        <item name="android:textSize">
+            @dimen/heading8
+        </item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+</resources>

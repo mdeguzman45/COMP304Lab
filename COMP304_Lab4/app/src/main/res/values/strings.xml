@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">MarcDeGuzman_BernadetteAlvarado_COMP304Sec002_Lab4</string>
+
+    <string-array name="firstname">
+        <item>Marc</item>
+        <item>Bernadette</item>
+        <item>Jane</item>
+    </string-array>
+
+    <string-array name="lastname">
+        <item>De Guzman</item>
+        <item>Alvarado</item>
+        <item>Doe</item>
+    </string-array>
+
+    <string-array name="department">
+        <item>Software Engineering Technology</item>
+        <item>Software Engineering Technician</item>
+        <item>Hospitality Management</item>
+    </string-array>
+
+    <integer-array name="professorId">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+    <string-array name="classRoomID">
+        <item>CLS101</item>
+        <item>CLS202</item>
+        <item>CLS303</item>
+        <item>CLS404</item>
+        <item>CLS505</item>
+    </string-array>
+
+    <string-array name="classRoomFloor">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+    </string-array>
+
+    <string-array name="classRoomAirConditioned">
+        <item>Yes</item>
+        <item>No</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+</resources>

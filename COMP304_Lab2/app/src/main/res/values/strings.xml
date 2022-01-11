@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Hungry Pizza</string>
+    <string name="canadian_toppings">Pepperoni, bacon crumble, sliced mushrooms and pizza mozzarella</string>
+    <string name="chicken_caesar_toppings">Alfredo sauce, seasoned grilled chicken breast, bacon crumble, roasted garlic, parmesan and pizza mozzarella</string>
+    <string name="hawaiian_toppings">Ham, pineapple and extra pizza mozzarella</string>
+    <string name="smokey_maple_bacon_toppings">Alfredo sauce, maple bacon strips, bacon strips, bacon crumble, sliced mushrooms, smoked aged cheddar and pizza mozzarella</string>
+    <string name="veggie_lovers_toppings">Sliced mushrooms, green pepper, red onion, tomato and pizza mozzarella</string>
+
+    <string name="canadian_type">canadian</string>
+    <string name="chicken_caesar_type">chicken_caesar</string>
+    <string name="hawaiian_type">hawaiian</string>
+    <string name="smokey_maple_bacon_type">smokey_maple_bacon</string>
+    <string name="veggie_lovers_type">veggie_lovers</string>
+
+    <string name="canadian_text">Canadian</string>
+    <string name="chicken_caesar_text">Chicken Caesar</string>
+    <string name="hawaiian_text">Hawaiian</string>
+    <string name="smokey_maple_bacon_text">Smokey Maple Bacon</string>
+    <string name="veggie_lovers_text">Veggie Lovers</string>
+
+    <string-array name="pizzaSize">
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+        <item>extra-large</item>
+    </string-array>
+
+    <string name="cardNumberText">Card Number <font color='#FF0000'>*</font></string>
+    <string name="cardExpiryDateText">Expiry Date <font color='#FF0000'>*</font></string>
+
+    <string name="fullNameText">Full Name <font color='#FF0000'>*</font></string>
+    <string name="streetAddressText">Street Address <font color='#FF0000'>*</font></string>
+    <string name="cityText">City <font color='#FF0000'>*</font></string>
+    <string name="stateText">State/Province <font color='#FF0000'>*</font></string>
+    <string name="postalCodeText">Postal Code <font color='#FF0000'>*</font></string>
+    <string name="phoneNumberText">Phone Number <font color='#FF0000'>*</font></string>
+    <string name="emailAddressText">Email Address <font color='#FF0000'>*</font></string>
+    <string name="otherInfo1Text">Favorite Fruit</string>
+    <string name="otherInfo2Text">Favorite Dessert</string>
+
+</resources>

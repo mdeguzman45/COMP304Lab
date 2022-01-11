@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentTestActivity">
+
+    <LinearLayout
+        android:id="@+id/addStudentTestFields"
+        android:layout_width="384dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="139dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/heading_8pt_left"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Student Name:" />
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/heading_8pt_left"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Classroom:" />
+
+            <TextView
+                android:id="@+id/textView10"
+                style="@style/heading_8pt_left"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="5dp"
+                android:text="Floor:" />
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/heading_8pt_left"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="5dp"
+                android:text="Airconditioned:" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/addStudentTestFullNameTextView"
+                style="@style/heading_8pt_left"
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <EditText
+                android:id="@+id/classroomIdEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/addFloorEditView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/addAirconditionEditView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/addStudentTestBtnFields"
+        android:layout_width="383dp"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addStudentTestFields"
+        app:layout_constraintVertical_bias="0.04">
+
+        <Button
+            android:id="@+id/addStudentTestBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="addStudentTest"
+            android:text="Add Classroom"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/cancelStudentTestBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:onClick="cancelAddTest"
+            android:text="Cancel"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".VRActivity">
+
+    <TextView
+        android:id="@+id/VRMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/VRActivityText"
+        android:textColor="@color/activityTextColor"
+        android:textSize="@dimen/textSize24" />
+
+    <TextView
+        android:id="@+id/VROnCreatedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textColor="@color/activityTextColor"
+        android:textSize="@dimen/textSize24" />
+
+    <TextView
+        android:id="@+id/VROnStartText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textColor="@color/activityTextColor"
+        android:textSize="@dimen/textSize24"/>
+
+    <TextView
+        android:id="@+id/VROnStopText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textColor="@color/activityTextColor"
+        android:textSize="@dimen/textSize24"/>
+
+    <TextView
+        android:id="@+id/VROnDestroyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=""
+        android:textColor="@color/activityTextColor"
+        android:textSize="@dimen/textSize24"/>
+
+</LinearLayout>

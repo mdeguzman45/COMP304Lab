@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pizza_Setup">
+
+    <TextView
+        android:id="@+id/pizzaType"
+        style="@style/pizza_heading_14pt_center"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addSelectionButton"
+        android:layout_width="141dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="addPizzaSelection"
+        android:text="Add To Cart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pizzaCrustGroupLayout"
+        app:layout_constraintVertical_bias="0.214" />
+
+    <ImageView
+        android:id="@+id/selectedPizzaImg"
+        android:layout_width="367dp"
+        android:layout_height="284dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pizzaType"
+        tools:srcCompat="@drawable/canadian_pizza" />
+
+    <TextView
+        android:id="@+id/pizzaTopping"
+        style="@style/pizza_heading_8pt_center"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectedPizzaImg" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/pizzaSizeGroupLayout"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pizzaTopping">
+
+        <TextView
+            android:id="@+id/pizzaSizeText"
+            style="@style/pizza_heading_8pt_left"
+            android:layout_width="100dp"
+            android:layout_height="31dp"
+
+            android:layout_marginStart="16dp"
+            android:text="Size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/pizzaSizeSpinner"
+            android:layout_width="182dp"
+            android:layout_height="33dp"
+            android:entries="@array/pizzaSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.822"
+            app:layout_constraintStart_toEndOf="@+id/pizzaSizeText"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/pizzaCrustGroupLayout"
+        android:layout_width="373dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pizzaSizeGroupLayout">
+
+        <TextView
+            android:id="@+id/pizzaCrustText"
+            style="@style/pizza_heading_8pt_left"
+            android:layout_width="122dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="16dp"
+            android:text="Crust"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/crustGroupButton"
+            android:layout_width="184dp"
+            android:layout_height="83dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.703"
+            app:layout_constraintStart_toEndOf="@+id/pizzaCrustText"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/thinCrustButton"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Thin" />
+
+            <RadioButton
+                android:id="@+id/thickCrustButton"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="Thick" />
+
+        </RadioGroup>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/cancelSelectPizza"
+        android:layout_width="141dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="backToCart"
+        android:text="Cancel"
+        app:layout_constraintBaseline_toBaselineOf="@+id/addSelectionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toEndOf="@+id/addSelectionButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

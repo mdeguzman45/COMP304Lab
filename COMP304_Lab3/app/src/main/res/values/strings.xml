@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">marcdeguzman_COMP304_Assignment 3</string>
+
+    <string-array name="lineThicknessSize">
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+
+    <string-array name="taskActivities">
+        <item>Task 1</item>
+        <item>Task 2</item>
+        <item>Task 3</item>
+    </string-array>
+</resources>
